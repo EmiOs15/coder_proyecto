@@ -1,5 +1,4 @@
 /*Reseteo de codigo, para unificar los espacios en todos los navegadores.*/
-
 *{
     padding:0;
     margin:0;
@@ -8,6 +7,7 @@
 body{
     background-color: #ffcdd473;
     font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
 }
 header{
     text-align: center;
@@ -26,32 +26,29 @@ header img{
     padding: 20px;
 }
 
-.header__nav{
-    width: 90%;
-    height: 80%;
-    margin: 0 auto;
-    border-radius: 10px;
-    display:flex;
-    flex-direction:row ;
+.gatito{
+    width: 130px;
 }
-
-.header__menu{
+.mi_color{
+    background-color: rgba(255, 208, 234, 0.637);
+}
+/*.header__menu{
     width: 90%;
     margin: 0 auto;
+    padding: 20px;
 }
 .header__item{
     margin: 13px;
     display: inline-block;
     text-align: center;   
-}
+}*/
 
 a{ /*Son los links*/
     color: black;
     font-weight: bold;
     font-size: 1.0rem; 
-    margin: 15px;
+    margin: 0.5px;
     text-decoration: none;
-    border: black 2px solid;
     padding: 0.7rem;
     justify-content: center;
 }
@@ -59,18 +56,25 @@ li a:hover{
     color: #ffe6f3ad;
     background-color: black;
     border-radius: 10px;
+    
 }
 .subt{
     color:#f54b4bb7;
     margin: 20px;
     text-align: center;
+    
 }
+.nav-item{
+    margin: auto;
+}
+
 main{
     text-align: center;
-    
+    padding: 20px;
 }
 main img{
     width:500px;
+    padding: 20px;
 }
 p{
     padding: 20px;
@@ -141,18 +145,14 @@ p{
     height: 250px;
     width: auto;
 }
-
-
 footer{
     margin: 20px auto;
     padding: 20px;
     background-color:#ffcdd483 ;
     text-align: center
-
 }
 .formulario{
     width: 500px;
     text-align: center;
     margin: 10px auto;
 }
-
