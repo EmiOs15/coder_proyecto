@@ -3,7 +3,6 @@
     padding:0;
     margin:0;
 }
-
 body{
     background-color: #ffcdd473;
     font-family: 'Courier New', Courier, monospace;
@@ -19,7 +18,6 @@ h1 h2{
     padding: 20px;
     margin: 0 auto;
 }
-
 header img{
     width: 250px;
     border-radius: 20%;
@@ -32,17 +30,6 @@ header img{
 .mi_color{
     background-color: rgba(255, 208, 234, 0.637);
 }
-/*.header__menu{
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-}
-.header__item{
-    margin: 13px;
-    display: inline-block;
-    text-align: center;   
-}*/
-
 a{ /*Son los links*/
     color: black;
     font-weight: bold;
@@ -156,4 +143,3 @@ footer{
     text-align: center;
     margin: 10px auto;
 }
-
