@@ -6,7 +6,7 @@
 body{
     background-color: #ffcdd473;
     font-family: 'Courier New', Courier, monospace;
-    padding: 20px;
+    padding: 5px;
 }
 header{
     text-align: center;
@@ -15,7 +15,7 @@ h1 h2{
     text-align: center;
     background-color: #ffe6f3ad;
     color: black;
-    padding: 20px;
+    padding: 10px;
     margin: 0 auto;
 }
 header img{
@@ -25,13 +25,15 @@ header img{
 }
 
 .gatito{
-    width: 130px;
+    width: 80px;
+    margin: 0 auto;
+    padding: 0px;
 }
 .mi_color{
     background-color: rgba(255, 208, 234, 0.637);
 }
 a{ /*Son los links*/
-    color: black;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 1.0rem; 
     margin: 0.5px;
@@ -40,9 +42,9 @@ a{ /*Son los links*/
     justify-content: center;
 }
 li a:hover{
-    color: #ffe6f3ad;
-    background-color: black;
-    border-radius: 10px;
+    color: #fd0000;
+    background-color: rgba(204, 128, 255, 0.233);
+    border-radius: 20px;
     
 }
 .subt{
