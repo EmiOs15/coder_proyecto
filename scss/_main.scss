@@ -1,0 +1,45 @@
+main{
+    text-align: center;
+    padding: 20px;
+    section{
+        .subt{
+            color:#f54b4b;
+            margin: 20px;
+            text-align: center;
+            text-decoration-line: underline;
+            text-size-adjust: 5;
+            font-size: 2.5rem;
+        }
+        p{
+            padding: 20px;
+            line-height: 1.3;
+            font-size: 1.1rem;
+            width: 600px;
+            overflow: auto;
+            margin: 20px auto;
+            border: 2px solid black;
+        }
+    }
+    .imgCentral{
+        .imgCentralImg{
+            width: 25%;
+            height: auto;
+        }
+        .imgCentralImg2{
+            width: 31%;/* Ajusta el ancho según la imagen*/
+            margin: auto;
+        }
+        h5{
+            position: absolute;
+            top: 80%;/*Ajusta la posicion vertical*/
+            left: 53%;/*Ajusta la posicion horizontal*/
+            transform: translate(-10%, -90%); /*Mueve el elemento*/
+            color: rgb(0, 0, 0); /*Cambia el color del texto*/
+            text-align: center;
+            font-size: 30px;
+            background-color: rgba(255, 189, 189, 0.295);
+            padding: 10px 20px;
+            border-radius: 60%;/* Redondea los bordes*/
+        }
+    }
+}

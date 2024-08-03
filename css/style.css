@@ -1,147 +1,125 @@
-/*Reseteo de codigo, para unificar los espacios en todos los navegadores.*/
-*{
-    padding:0;
-    margin:0;
-}
-body{
-    background-color: #ffcdd473;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 5px;
-}
-header{
-    text-align: center;
-}
-h1 h2{
-    text-align: center;
-    background-color: #ffe6f3ad;
-    color: black;
-    padding: 10px;
-    margin: 0 auto;
-}
-header img{
-    width: 250px;
-    border-radius: 20%;
-    padding: 20px;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.gatito{
-    width: 65px;
-    margin: 0 auto;
-    padding: 0px;
-}
-.mi_color{
-    background-color: rgba(255, 208, 234, 0.637);
-}
-a{ /*Son los links*/
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-    font-size: 1.0rem; 
-    margin: 0.5px;
-    text-decoration: none;
-    padding: 0.7rem;
-    justify-content: center;
-}
-li a:hover{
-    color: #fd0000;
-    background-color: rgba(204, 128, 255, 0.233);
-    border-radius: 20px;
-    
-}
-.subt{
-    color:#f54b4bb7;
-    margin: 20px;
-    text-align: center;
-    
-}
-.nav-item{
-    margin: auto;
+body {
+  background-color: rgba(255, 205, 212, 0.451);
+  background-image: url("../img/fondo-inicio2.avif");
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Courier New", Courier, monospace;
+  padding: 5px;
 }
 
-main{
-    text-align: center;
-    padding: 20px;
+header {
+  background-color: rgba(255, 0, 132, 0.13);
 }
-main img{
-    width:500px;
-    padding: 20px;
+header .contenedor {
+  font-family: "Times New Roman", Times, serif;
+  background-color: rgba(255, 222, 239, 0.288);
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-p{
-    padding: 20px;
-    line-height: 1.3;
-    font-size: 1.1rem;
-    width: 600px;
-    overflow: auto;
-    margin: 20px auto;
-    border: 2px solid black;
+header .contenedor .img-left {
+  max-width: 50%;
+  height: auto;
+  width: 120px;
+  border-radius: 50%;
+  border-color: black;
+  border: black 2px solid;
+  text-align: center;
+}
+header .contenedor .img-left:hover {
+  border-color: rgb(247, 3, 3);
+}
+header .contenedor .titulo1 {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  color: rgb(124, 7, 7);
+  padding: 20px;
+  margin: 0 auto;
+}
+header nav {
+  padding: 5px;
+  margin: auto;
+}
+header nav .container-fluid .navbar-brand .gatito {
+  width: 95px;
+  margin: 0 auto;
+  padding: 0px;
+  border: black, 2px solid;
+}
+header nav div ul li {
+  margin: auto;
+}
+header nav div ul li a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1rem;
+  margin: 0.5px;
+  text-decoration: none;
+  padding: 0.7rem;
+  justify-content: center;
+}
+header nav div ul li a:hover {
+  background-color: rgba(204, 128, 255, 0.233);
+  border-radius: 20px;
 }
 
-.nosotros_par{
-    width: 600px;
-    overflow: auto;
-    margin: 10px auto;
-    border: 2px solid black;
+main {
+  text-align: center;
+  padding: 20px;
+}
+main section .subt {
+  color: #f54b4b;
+  margin: 20px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-size-adjust: 5;
+  font-size: 2.5rem;
+}
+main section p {
+  padding: 20px;
+  line-height: 1.3;
+  font-size: 1.1rem;
+  width: 600px;
+  overflow: auto;
+  margin: 20px auto;
+  border: 2px solid black;
+}
+main .imgCentral .imgCentralImg {
+  width: 25%;
+  height: auto;
+}
+main .imgCentral .imgCentralImg2 {
+  width: 31%; /* Ajusta el ancho según la imagen*/
+  margin: auto;
+}
+main .imgCentral h5 {
+  position: absolute;
+  top: 80%; /*Ajusta la posicion vertical*/
+  left: 53%; /*Ajusta la posicion horizontal*/
+  transform: translate(-10%, -90%); /*Mueve el elemento*/
+  color: rgb(0, 0, 0); /*Cambia el color del texto*/
+  text-align: center;
+  font-size: 30px;
+  background-color: rgba(255, 189, 189, 0.295);
+  padding: 10px 20px;
+  border-radius: 60%; /* Redondea los bordes*/
 }
 
-.imgCentral{
-    position: relative;
-    width: 500px;/* Ajusta el ancho según la imagen*/
-    margin: auto;
+footer {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 205, 212, 0.5137254902);
+  text-align: center;
 }
 
-.imgCentralImg{
-    width: 100%;
-    height: auto;    
-}
-
-.imgCentralSub{
-    position: absolute;
-    top: 5%;/*Ajusta la posicion vertical*/
-    left: 50%;/*Ajusta la posicion horizontal*/
-    transform: translate(-50%, -50%); /*Mueve el elemento*/
-    color: rgb(0, 0, 0); /*Cambia el color del texto*/
-    text-align: center;
-    font-size: 15px;
-    background-color: rgba(255, 189, 189, 0.5);
-    padding: 5px 10px;
-    border-radius: 50%;/* Redondea los bordes*/
-}
-.main_productos{
-    justify-content: center; 
-    padding: 20px;
-    margin: 0;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1 fr;
-    grid-template-areas: 
-    "ALIMENTOS PARA MASCOTAS"
-    "HIGIENE PARA MASCOTAS"
-    "JUGUETES PARA MASCOTAS"
-    ;
-}
-.subt_prod{
-    text-align: center;
-    color:#f54b4bb7;
-    margin: 20px;
-
-}
-.main_productos img{
-    width: 400px;
-    border-radius: 20%;
-    padding: 20px;
-}
-.img_prod{
-    height: 250px;
-    width: auto;
-}
-footer{
-    margin: 20px auto;
-    padding: 20px;
-    background-color:#ffcdd483 ;
-    text-align: center
-}
-.formulario{
-    width: 500px;
-    text-align: center;
-    margin: 10px auto;
-}
+/*# sourceMappingURL=style.css.map */
