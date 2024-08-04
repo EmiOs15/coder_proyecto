@@ -1,0 +1,35 @@
+main{
+    .producto{
+        .productos{
+            color:#f54b4b;
+            margin: 0.1%;
+            text-align: center;
+            text-size-adjust: 5rem;
+            font-size: 2.5rem;                
+        }
+    
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            tr{
+                td{
+                    padding: .5rem;
+                    text-align: center;
+                    border: 1px solid #ddd; /* Para añadir un borde a las celdas */
+                    background-color: rgba(220, 190, 250, 0.438);
+                    img{
+                        width: 60%; /* Ajusta el ancho de las imágenes */
+                        height: 70%; /* Ajusta la altura de las imágenes */
+                        object-fit: cover; /* Mantiene las proporciones y recorta el exceso */
+                        transition: all 1s;
+                        &:hover{
+                            transform: skew(20deg);
+                        }
+                    }
+                }
+           }
+        }
+    }
+}
+
+

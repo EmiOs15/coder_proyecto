@@ -1,0 +1,41 @@
+main{
+    section{
+        .subt{
+            padding: 2%;
+            color:#f54b4bb7;
+            margin: auto;
+            text-align: center;
+            font-size: 4.5rem;
+        }
+        .nosotros_par{
+            width: 600px;
+            overflow: auto;
+            margin: 10px auto;
+            border: 2px solid black;
+            padding: 1.5%;
+        }
+    }
+    .tabla-personal{
+        .personal{
+            text-align: center;
+            font-size: 5rem;
+            text-decoration: underline;
+        }
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            tr{
+                td{
+                    padding: .5rem;
+                    text-align: center;
+                    border: 1px solid #ddd; /* Para añadir un borde a las celdas */
+                    img{
+                        width: 200px; /* Ajusta el ancho de las imágenes */
+                        height: 200px; /* Ajusta la altura de las imágenes */
+                        object-fit: cover; /* Mantiene las proporciones y recorta el exceso */
+                    }
+                }
+            }
+        }
+    }
+}

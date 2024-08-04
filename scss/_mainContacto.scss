@@ -1,0 +1,23 @@
+main{
+    section{
+        .subt{
+            color:#f54b4bb7;
+            margin: 0.5%;
+            text-align: center;
+        }
+        .formulario{
+            div{
+                align-items: center;
+                font-size: 1.2rem;
+                margin: 0.1%;
+                padding: 0.2%;
+                transition: all 1s;
+                &:hover{
+                    background-color: rgba(253, 156, 253, 0.301);
+                    transform: scale(1.1, 1.1);
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+}

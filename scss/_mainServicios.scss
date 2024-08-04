@@ -1,0 +1,30 @@
+main{
+    section{
+        .subt{
+            color:#f54b4bb7;
+            margin: 20px;
+            text-align: center;
+        }
+        p{
+            padding: 2%;
+            color:#000000b7;
+            margin: auto;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+    }
+    .servicios{
+        table{
+            width:100%;
+            border-collapse: collapse;
+            tr{
+                td{
+                    padding: .5rem;
+                    text-align: center;
+                    border: 1px solid #000000; /* Para añadir un borde a las celdas */
+                }
+            }
+        }
+    }
+
+}

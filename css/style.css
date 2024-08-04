@@ -26,7 +26,7 @@ header .contenedor {
   align-items: center;
   justify-content: space-between;
 }
-header .contenedor .img-left {
+header .contenedor img {
   max-width: 50%;
   height: auto;
   width: 120px;
@@ -35,7 +35,7 @@ header .contenedor .img-left {
   border: black 2px solid;
   text-align: center;
 }
-header .contenedor .img-left:hover {
+header .contenedor img:hover {
   border-color: rgb(247, 3, 3);
 }
 header .contenedor .titulo1 {
@@ -50,7 +50,7 @@ header nav {
   padding: 5px;
   margin: auto;
 }
-header nav .container-fluid .navbar-brand .gatito {
+header nav .container-fluid .navbar-brand img {
   width: 95px;
   margin: 0 auto;
   padding: 0px;
@@ -77,35 +77,44 @@ main {
   text-align: center;
   padding: 20px;
 }
-main section .subt {
+main section .subtIni {
   color: #f54b4b;
-  margin: 20px;
+  margin: 0.1%;
   text-align: center;
   text-decoration-line: underline;
-  text-size-adjust: 5;
+  text-size-adjust: 5rem;
   font-size: 2.5rem;
 }
-main section p {
-  padding: 20px;
+main section .intro {
+  padding: 2%;
   line-height: 1.3;
   font-size: 1.1rem;
-  width: 600px;
+  width: 50%;
   overflow: auto;
-  margin: 20px auto;
+  margin: 2% auto;
   border: 2px solid black;
 }
 main .imgCentral .imgCentralImg {
-  width: 25%;
+  width: 55rem;
   height: auto;
+  transition: all 2s;
+}
+main .imgCentral .imgCentralImg:hover {
+  transform: scale(1.1, 1.1);
 }
 main .imgCentral .imgCentralImg2 {
-  width: 31%; /* Ajusta el ancho según la imagen*/
-  margin: auto;
+  width: 55rem; /* Ajusta el ancho según la imagen*/
+  margin: 50px;
+  height: 30rem;
+  transition: all 2s;
+}
+main .imgCentral .imgCentralImg2:hover {
+  transform: scale(1.1, 1.1);
 }
 main .imgCentral h5 {
   position: absolute;
   top: 80%; /*Ajusta la posicion vertical*/
-  left: 53%; /*Ajusta la posicion horizontal*/
+  left: 41%; /*Ajusta la posicion horizontal*/
   transform: translate(-10%, -90%); /*Mueve el elemento*/
   color: rgb(0, 0, 0); /*Cambia el color del texto*/
   text-align: center;
@@ -113,6 +122,107 @@ main .imgCentral h5 {
   background-color: rgba(255, 189, 189, 0.295);
   padding: 10px 20px;
   border-radius: 60%; /* Redondea los bordes*/
+}
+
+main .producto .productos {
+  color: #f54b4b;
+  margin: 0.1%;
+  text-align: center;
+  text-size-adjust: 5rem;
+  font-size: 2.5rem;
+}
+main .producto table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main .producto table tr td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ddd; /* Para añadir un borde a las celdas */
+  background-color: rgba(220, 190, 250, 0.438);
+}
+main .producto table tr td img {
+  width: 60%; /* Ajusta el ancho de las imágenes */
+  height: 70%; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Mantiene las proporciones y recorta el exceso */
+  transition: all 1s;
+}
+main .producto table tr td img:hover {
+  transform: skew(20deg);
+}
+
+main section .subt {
+  color: rgba(245, 75, 75, 0.7176470588);
+  margin: 20px;
+  text-align: center;
+}
+main section p {
+  padding: 2%;
+  color: rgba(0, 0, 0, 0.7176470588);
+  margin: auto;
+  text-align: center;
+  font-size: 1.5rem;
+}
+main .servicios table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main .servicios table tr td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #000000; /* Para añadir un borde a las celdas */
+}
+
+main section .subt {
+  padding: 2%;
+  color: rgba(245, 75, 75, 0.7176470588);
+  margin: auto;
+  text-align: center;
+  font-size: 4.5rem;
+}
+main section .nosotros_par {
+  width: 600px;
+  overflow: auto;
+  margin: 10px auto;
+  border: 2px solid black;
+  padding: 1.5%;
+}
+main .tabla-personal .personal {
+  text-align: center;
+  font-size: 5rem;
+  text-decoration: underline;
+}
+main .tabla-personal table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main .tabla-personal table tr td {
+  padding: 0.5rem;
+  text-align: center;
+  border: 1px solid #ddd; /* Para añadir un borde a las celdas */
+}
+main .tabla-personal table tr td img {
+  width: 200px; /* Ajusta el ancho de las imágenes */
+  height: 200px; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Mantiene las proporciones y recorta el exceso */
+}
+
+main section .subt {
+  color: rgba(245, 75, 75, 0.7176470588);
+  margin: 0.5%;
+  text-align: center;
+}
+main section .formulario div {
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0.1%;
+  padding: 0.2%;
+  transition: all 1s;
+}
+main section .formulario div:hover {
+  background-color: rgba(253, 156, 253, 0.301);
+  transform: scale(1.1, 1.1);
+  font-size: 1.4rem;
 }
 
 footer {
