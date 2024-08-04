@@ -8,7 +8,7 @@ header{
         display: flex;
         align-items: center;//Alinea el texto y la imagen verticalmente al medio.
         justify-content: space-between;// Separa la imagen del texto a los extremos.
-        .img-left {
+        img{
             max-width: 50%; // Ajusta según el tamaño que desees para la imagen.
             height: auto; // Mantiene la proporción de la imagen.
             width: 120px;
@@ -18,6 +18,7 @@ header{
             text-align:center ;      
             &:hover{
                 border-color: rgb(247, 3, 3);
+                
             }
           }
         .titulo1{
@@ -26,8 +27,8 @@ header{
             flex-direction: row;
             color: rgb(124, 7, 7);
             padding:20px;
-            margin: 0 auto;   
-        }
+            margin: 0 auto;
+            }
     }
     
     nav{
@@ -35,11 +36,12 @@ header{
         margin:auto; 
         .container-fluid{
             .navbar-brand{
-                .gatito{
+                img{
                     width: 95px;
                     margin: 0 auto;
                     padding: 0px;
                     border: black, 2px solid;
+                    
                 }
             }
         }

@@ -11,15 +11,17 @@ main{
             font-size: 2.5rem;
         }
         p{
-            padding: 20px;
+            padding: 20%;
             line-height: 1.3;
             font-size: 1.1rem;
-            width: 600px;
+            width: 50%;
             overflow: auto;
-            margin: 20px auto;
+            margin: 20% auto;
             border: 2px solid black;
+            background: radial-gradient(to left, rgba(255, 134, 134, 0.377), rgba(248, 217, 222, 0.432), rgba(253, 202, 253, 0.432));
         }
     }
+
     .imgCentral{
         .imgCentralImg{
             width: 25%;
@@ -38,7 +40,7 @@ main{
             text-align: center;
             font-size: 30px;
             background-color: rgba(255, 189, 189, 0.295);
-            padding: 10px 20px;
+            //padding: 10px 20px;
             border-radius: 60%;/* Redondea los bordes*/
         }
     }
